@@ -1,0 +1,96 @@
+.row{
+	width:135%;
+}
+p{
+	border: 1px solid black;
+	width:94%;
+	height:100%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Helvetica;
+	background-color: gray;
+}
+/************large device only*************/
+@media(min-width: 992px) and (max-width: 1304px){
+	
+	.lg1,.lg2,.lg3{
+		float: left;
+		/*border: 1px solid green;*/
+
+	}
+	.lg1{
+		width: 23.00%;
+		height: 100%;
+	}
+	.lg2{
+		width: 23.00%;
+		height: 100%;
+	}
+	.lg3{
+		width:23.00%;
+		height: 100%;
+	}
+	/************menu name*********/
+	.p1{
+	width: 70px;
+	height: 25px;
+	border: 1px solid black;
+	float: right;
+	font-family: verdana;
+	margin-right: 10px;
+    }
+	#p2{
+	background-color: #FABAAD;
+	}
+	#p3{
+	background-color: #D33918;
+	}
+	#p4{
+   background-color: #F8E189;
+	}
+}
+/*******************medium device only***************/
+@media(min-width: 768px) and (max-width: 991px){
+	/***********menu name**********/
+	.p1{
+	width: 55px;
+	height: 20px;
+	border: 1px solid black;
+	float: right;
+	font-family: verdana;
+	margin-right: 13px;
+	}
+	#p2{
+  	  background-color: #FABAAD;
+	}
+	#p3{
+	  background-color: #D33918;
+	}
+	#p4{
+  	 background-color: #F8E189;
+	}
+	/*********boxses with text movement**********/
+	#md1,#md2,#md3{
+		float: left;
+	}
+
+	#md1{
+		width:35.00%;
+	}
+	#md2{
+		
+		width: 35.00%;
+	}
+	#md3{
+		width: 75.00%;
+	}
+	
+}
+/************************mobile view************/
+@media(min-width: 767px){
+	.sm{
+		float: left;
+		width:20.00%;
+	}
+}
+
